@@ -21,8 +21,8 @@ Often it is much easier to just perform a `git clone` with subsequent manual ins
 in a central package registry, getting it approved, deploying update keys etc.
 
 `ezinstall` attempts to make this manual installation a little bit more generic and secure as it allows not only the
-direct installation of conformant git tags or releases but it also offers builtin checksum verification to ensure that
-you get the same tarball as expected (see also [verifiable urls](#verifiable-urls)).
+direct installation of conformant git tags/releases but also offers builtin checksum verification to ensure that you get
+the same tarball as expected (see also [verifiable urls](#verifiable-urls)).
 
 
 ## Package format
