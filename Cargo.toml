@@ -1,0 +1,32 @@
+[package]
+name = "ezinstall"
+version = "0.1.0"
+edition = "2018"
+authors = ["KizzyCode Software Labs./Keziah Biermann <development@kizzycode.de>"]
+keywords = []
+categories = []
+description = "`ezinstall` provides a simple installer which can verify and install compatible tarballs"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/EzInstall-rust"
+readme = "README.md"
+
+
+[badges]
+appveyor = { repository = "KizzyCode/ezinstall-rust" }
+
+
+[features]
+default = []
+
+
+[dependencies]
+ebacktrace = "0.3"
+ezexec = "0.1"
+sha2 = "0.9"
+
+
+[profile.release]
+overflow-checks = true
+
+[profile.bench]
+overflow-checks = true
